@@ -4,8 +4,8 @@ import { faqData } from "../../mock/faq";
 
 export default function FaqSection() {
     return (
-        <section id='faq' className='relative flex flex-col items-center justify-center w-full gap-20'>
-            <h1 className='text-5xl text-purple-700 leading-tight'>FAQ</h1>
+        <section id='faq' className='relative flex flex-col items-center justify-center w-full gap-20 p-4 md:p-0'>
+            <h1 className='md:text-5xl text-3xl text-purple-700 leading-tight'>FAQ</h1>
             <div className='flex flex-col gap-10 w-full items-center'>
                 {
                     faqData.map((item, index) => (

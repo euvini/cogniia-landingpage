@@ -12,14 +12,14 @@ import PlatformSection from './pages/home/platform';
 
 const App: React.FC = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center ">
       <Navbar />
-      <img src='/bg-wave-beige.svg' alt='bg-wave-beige' style={{ position: 'absolute', top: 0, zIndex: -1, width: '100%', maxHeight: 1016 }} />
-      <main className="flex-grow self-center">
+      <img src='/bg-wave-beige.svg' alt='bg-wave-beige' className='absolute top-0 -z-10 w-full max-h-[1016px] h-screen object-cover' />
+      <main className="flex-grow self-center max-w-[1440px]">
 
         <AboutPageSection />
 
-        <Divider height={370} width={0} />
+        <Divider height={370} mobileHeight={100} mobileWidth={0} width={0} />
 
         <TherapeuticInterventionSection />
 
@@ -33,7 +33,7 @@ const App: React.FC = () => {
 
         <BlogSection />
 
-        <Divider height={170} width={0} />
+        <Divider height={170} mobileHeight={800} mobileWidth={0} width={0} />
 
         <FaqSection />
 
@@ -41,7 +41,7 @@ const App: React.FC = () => {
 
         <PlatformSection />
 
-        <Divider height={170} width={0} />
+        <Divider height={170} mobileHeight={100} mobileWidth={0} width={0} />
 
       </main>
       <Footer />
