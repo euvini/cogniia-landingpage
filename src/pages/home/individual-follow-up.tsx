@@ -3,7 +3,7 @@ import { Button } from "../../ components/ui/button";
 export default function IndividualFollowUpSection() {
     return (
         <section id="individual-follow-up" className='flex justify-center items-center text-center h-[33.62rem]'>
-            <div className='md:flex '>
+            <div className='md:flex'>
                 <img src="/polygons1.svg" alt="polygons1" className='md:-ml-52 md:h-[38.68rem] h-52 absolute md:flex -z-10' />
             </div>
             <div className='flex flex-col gap-10 items-center justify-center my-52'>
