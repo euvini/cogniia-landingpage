@@ -34,7 +34,9 @@ export default function BlogSection() {
                                 </div>
                                 <span className='text-2xl text-purple-700'>{item.title.rendered}</span>
                                 <Button type='button' variant='outline' className='w-fit'>
-                                    Leia mais
+                                    <a href={`/blog/${item.slug}`}>
+                                        Leia mais
+                                    </a>
                                 </Button>
                             </div>
                         )

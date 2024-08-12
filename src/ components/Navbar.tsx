@@ -21,16 +21,20 @@ const Navbar: React.FC = () => {
     return (
         <header className="bg-transparent flex w-full">
             <div className="container mx-auto flex justify-between items-center self-center py-4 px-1">
-                <img src='/cogniia.svg' alt='logo' height={46} className='aspect-video max-w-36' />
+                <a href="/">
+                    <img src='/cogniia.svg' alt='logo' height={46} className='aspect-video max-w-36' />
+                </a>
                 <nav className="hidden md:flex flex-wrap items-center justify-between w-full gap-1 max-w-2xl">
-                    <a href="#about" className="text-purple-800 text-[16px] hover:text-purple-700">Sobre a Cogniia</a>
-                    <a href="#therapeutic-intervention" className="text-purple-800 text-[16px] hover:text-purple-700">Baseado em ciência</a>
-                    <a href="/blog" className="text-purple-800 text-[16px] hover:text-purple-700">Blog</a>
+                    <a href="/" className="text-purple-800 text-[16px] hover:text-purple-700">Sobre a Cogniia</a>
+                    <a href="/#therapeutic-intervention" className="text-purple-800 text-[16px] hover:text-purple-700">Baseado em ciência</a>
+                    <a href="/#blog" className="text-purple-800 text-[16px] hover:text-purple-700">Blog</a>
                     <a href="#faq" className="text-purple-800 text-[16px] hover:text-purple-700">FAQ</a>
                     <Divider height={30} width={1} />
-                    <a href="#login" className="text-purple-800 text-[16px] hover:text-purple-700 uppercase font-bold">Login</a>
+                    <a href="https://cogniia.vercel.app/login" className="text-purple-800 text-[16px] hover:text-purple-700 uppercase font-bold">Login</a>
                     <Button variant='default'>
-                        Cadastre-se
+                        <a href="https://cogniia.vercel.app/register">
+                            Cadastre-se
+                        </a>
                     </Button>
                 </nav>
                 <div className="md:hidden">
@@ -46,12 +50,12 @@ const Navbar: React.FC = () => {
                     } ${isAnimating ? 'visible' : 'invisible'}`}
             >
                 <div className="flex flex-col items-left py-4 px-6 space-y-4">
-                    <a href="#about" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>Sobre a Cogniia</a>
-                    <a href="#therapeutic-intervention" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>Baseado em ciência</a>
-                    <a href="/blog" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>Blog</a>
+                    <a href="/" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>Sobre a Cogniia</a>
+                    <a href="/#therapeutic-intervention" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>Baseado em ciência</a>
+                    <a href="#blog" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>Blog</a>
                     <a href="#faq" className="text-purple-800 text-[16px] hover:text-purple-700" onClick={() => setIsOpen(false)}>FAQ</a>
                     <Divider height={0.5} width="100%" />
-                    <a href="#login" className="text-purple-800 text-[16px] hover:text-purple-700 uppercase font-bold" onClick={() => setIsOpen(false)}>Login</a>
+                    <a href="https://cogniia.vercel.app/login" className="text-purple-800 text-[16px] hover:text-purple-700 uppercase font-bold">Login</a>
                     <Button variant="default" className="w-fit" onClick={() => setIsOpen(false)}>Cadastre-se</Button>
                 </div>
             </div>

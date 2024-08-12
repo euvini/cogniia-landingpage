@@ -9,8 +9,8 @@ export default function FaqSection() {
             <div className='flex flex-col gap-10 w-full items-center'>
                 {
                     faqData.map((item, index) => (
-                        <div className='max-w-[854px] w-full flex flex-col gap-10'>
-                            <FAQItem key={index} question={item.question} answer={item.answer} />
+                        <div key={index} className='max-w-[854px] w-full flex flex-col gap-10'>
+                            <FAQItem question={item.question} answer={item.answer} />
                             <Divider width={'100%'} height={1} color='bg-beige-300' />
                         </div>
                     ))
