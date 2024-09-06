@@ -24,7 +24,7 @@ export default function BlogSection() {
         <section id="blog" className='relative flex flex-col items-center justify-center w-full mt-14 md:mt-0'>
             <h1 className='md:text-5xl text-3xl text-purple-700 leading-tight'>Blog</h1>
             <Divider height={80} width={0} />
-            <div className='grid md:grid-cols-3 grid-cols-1 h-[527px] items-center justify-center gap-8 p-4'>
+            <div className='flex flex-wrap items-center justify-center gap-8 p-4'>
                 {
                     news?.map((item, index) => {
                         if (index < 3) return (

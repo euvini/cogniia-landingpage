@@ -13,31 +13,31 @@ const Footer: React.FC = () => {
                     <button>
                         <img src="/social-media/Linkedin.svg" alt="Instagram" />
                     </button>
-                    <button>
+                    <a href='https://www.instagram.com/cogniia/' target='_blank'>
                         <img src="/social-media/Instagram.svg" alt="Instagram" />
-                    </button>
+                    </a>
                     <button>
                         <img src="/social-media/Youtube.svg" alt="Instagram" />
                     </button>
-                    <button>
+                    <a href='https://wa.me/554184138805' target='_blank'>
                         <img src="/social-media/Whatsapp.svg" alt="Instagram" />
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <Divider width={'90%'} mobileWidth={0} mobileHeight={0} height={1} color='bg-beige-300' />
 
             <div className="container md:flex-row flex-col mx-auto text-center flex justify-between md:items-center gap-4">
-                <button >
+                <a href='https://www.matilha.digital/' target='_blank' >
                     <img src="/badge-matilha.svg" alt="cogniia" className='h-7' />
-                </button>
+                </a>
                 <div className='flex gap-10 items-center text-grey-800 text-xs'>
-                    <button>
+                    <a href='https://cogniia.vercel.app/service-terms' target='_blank'>
                         Termos e condições
-                    </button>
-                    <button>
+                    </a>
+                    <a href='https://cogniia.vercel.app/privacy-terms' target='_blank'>
                         Políticas de privacidade
-                    </button>
+                    </a>
                 </div>
             </div>
             <Divider height={20} width={0} />

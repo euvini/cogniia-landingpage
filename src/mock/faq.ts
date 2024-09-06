@@ -5,15 +5,15 @@ export interface FAQ {
 
 export const faqData: FAQ[] = [
     {
-        question: "Lorem ipsum dolor sit amet consectetur?",
-        answer: "Lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet consectetur",
+        question: "Para quem a Cogniia é indicada?",
+        answer: "Se você está buscando uma solução eficaz para lidar com a ansiedade leve a moderada ou precisa de um espaço acolhedor para expressar seus sentimentos, a Cogniia pode ser a escolha certa para você.",
     },
     {
-        question: "Lorem ipsum dolor sit amet consectetur?",
-        answer: "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.",
+        question: "O ambiente da plataforma é seguro?",
+        answer: "Sim, sua privacidade e segurança são prioridade para nós. Obedecendo à Lei Geral de Proteção de Dados (13.709/2018), criamos um espaço totalmente seguro onde você pode falar sobre seus sentimentos e desafios sem medo.",
     },
     {
-        question: "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet?",
-        answer: "JSX é uma extensão de sintaxe para JavaScript, que permite escrever HTML dentro do JavaScript.",
+        question: "Como posso começar a usar a Cogniia?",
+        answer: "Para começar, basta se cadastrar na nossa plataforma. Você terá acesso a um período de testes gratuito, onde poderá iniciar sua jornada de tratamento.",
     },
 ];

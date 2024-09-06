@@ -13,8 +13,10 @@ export default function AboutPageSection() {
                     {' '}<b>individual e personalizada</b> para sua
                     ansiedade.
                 </p>
-                <Button variant='default' className='md:mt-10 mt-4 w-fit p-5 self-start'>
-                    Conheça a Cogniia
+                <Button variant='default' className='md:mt-10 mt-4 w-fit p-5 self-start' >
+                    <a href="https://cogniia.vercel.app/">
+                        Conheça a Cogniia
+                    </a>
                 </Button>
             </div>
         </section>

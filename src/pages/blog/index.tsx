@@ -11,7 +11,7 @@ const Blog: React.FC = () => {
         <div className="flex flex-col">
             <Navbar />
             <img src='/bg-wave-beige.svg' alt='bg-wave-beige' style={{ position: 'absolute', top: 0, zIndex: -1, width: '100%', maxHeight: 800 }} />
-            <main className="flex-grow self-center">
+            <main className="flex-grow self-center px-4">
 
                 <Divider height={100} width={0} />
                 <HeroSection />

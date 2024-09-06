@@ -8,7 +8,9 @@ export default function TherapeuticInterventionSection() {
                 <div className='p-8 bg-beige-200 rounded-3xl max-w-[345px] flex flex-col gap-6'>
                     <h1 className='text-2xl text-purple-700'>Consulte nosso FAQ e saiba mais sobre nós</h1>
                     <Button type='button' variant='default' className='w-fit p-5'>
-                        Acesse nosso FAQ
+                        <a href="#faq">
+                            Acesse nosso FAQ
+                        </a>
                     </Button>
                 </div>
             </div>
@@ -25,7 +27,7 @@ export default function TherapeuticInterventionSection() {
                 <div className='flex flex-col md:max-w-[18.75rem] gap-10'>
                     <img src="/hexIcon/HexIconBlue.svg" alt="HexIconPurple" height={80} width={80} />
                     <div className='flex flex-col gap-4'>
-                        <h1 className='text-3xl text-purple-700 overflow-auto'>Acompanhamento individual</h1>
+                        <h1 className='text-3xl text-purple-700'>Acompanhamento individual</h1>
                         <p className='text-xl text-grey-800'>
                             Cada jornada é única, assim como suas necessidades. Por isso, <b className='font-semibold'>nosso foco é você!</b> Respeitamos sua história e cuidaremos das suas necessidades, no seu ritmo!
                         </p>

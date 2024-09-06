@@ -11,7 +11,9 @@ export default function IndividualFollowUpSection() {
                     Nossa plataforma, sua jornada de liberdade
                 </h1>
                 <Button type='button' variant='default' className='w-fit p-5'>
-                    Cadastre-se e conheça
+                    <a href="https://cogniia.vercel.app/register">
+                        Cadastre-se e conheça
+                    </a>
                 </Button>
                 <img src="/WontStop1.svg" alt="WontStop1" className='md:hidden block h-64' />
             </div>

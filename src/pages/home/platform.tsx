@@ -6,7 +6,9 @@ export default function PlatformSection() {
             <div className='flex flex-col max-w-[524px] justify-self-end items-center'>
                 <h1 className='md:text-5xl text-3xl text-purple-700 leading-tight p-4 md:p-0'>Nossa plataforma, sua jornada de liberdade</h1>
                 <Button variant='default' className='mt-10 w-fit p-5 self-start'>
-                    Cadastre-se gratuitamente
+                    <a href="https://cogniia.vercel.app/register">
+                        Cadastre-se gratuitamente
+                    </a>
                 </Button>
             </div>
             <div className='flex items-center justify-center'>
