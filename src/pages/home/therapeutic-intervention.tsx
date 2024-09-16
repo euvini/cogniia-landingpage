@@ -27,7 +27,7 @@ export default function TherapeuticInterventionSection() {
                 <div className='flex flex-col md:max-w-[18.75rem] gap-10'>
                     <img src="/hexIcon/HexIconBlue.svg" alt="HexIconPurple" height={80} width={80} />
                     <div className='flex flex-col gap-4'>
-                        <h1 className='text-3xl text-purple-700'>Acompanhamento individual</h1>
+                        <h1 className='text-3xl md:text-2xl lg:text-3xl text-purple-700'>Acompanhamento individual</h1>
                         <p className='text-xl text-grey-800'>
                             Cada jornada é única, assim como suas necessidades. Por isso, <b className='font-semibold'>nosso foco é você!</b> Respeitamos sua história e cuidaremos das suas necessidades, no seu ritmo!
                         </p>

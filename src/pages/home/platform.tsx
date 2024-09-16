@@ -12,7 +12,7 @@ export default function PlatformSection() {
                 </Button>
             </div>
             <div className='flex items-center justify-center'>
-                <img src="/TelaeIlustraçao.svg" alt="TelaeIlustração" />
+                <img src="/Partial3.png" alt="TelaeIlustração" />
             </div>
         </section>
     )

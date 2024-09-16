@@ -19,7 +19,7 @@ export default function SecureEnvironmentSection() {
             <div className='flex items-center justify-center p-9'>
                 <img src="/PatternPolygon.svg" alt="PatternPolygon" className='absolute right-0 bottom-0 self-end -z-10 h-64 md:h-[546px]:' />
             </div>
-            <img src='/bg-wave-beige2.svg' alt='bg-wave-beige2' className='w-screen ml-0 absolute -bottom-12 -z-20 h-screen object-cover' />
+            <img src='/bg-wave-beige2.svg' alt='bg-wave-beige2' className='w-screen ml-0 absolute -bottom-12 -z-20 h-screen lg:h-fit lg:object-contain object-cover' />
         </section>
     )
 }

@@ -25,7 +25,7 @@ const App: React.FC = () => {
 
         <IndividualFollowUpSection />
 
-        <Divider height={270} width={0} />
+        <Divider height={70} width={0} />
 
         <SecureEnvironmentSection />
 
